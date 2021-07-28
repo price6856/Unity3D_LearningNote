@@ -207,6 +207,7 @@ public class CameraController : MonoBehaviour
         {
             Down();
         }
+       
     }
 
     #endregion
@@ -766,4 +767,8 @@ public class CameraController : MonoBehaviour
     }
 
     #endregion
+
+
+
+
 }

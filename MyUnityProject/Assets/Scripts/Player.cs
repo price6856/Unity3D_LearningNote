@@ -13,6 +13,10 @@ public class Player : MonoBehaviour
 
     public GameObject winText;
 
+    public Material ma;
+
+    //public GameObject player;
+
     // Start is called before the first frame update
     void Start()//只执行一次
     {
@@ -83,10 +87,42 @@ public class Player : MonoBehaviour
     }
     //private void OnTriggerExit(Collider other)//离开触发区域
     //{
-        
+
     //}
     //private void OnTriggerStay(Collider other)//正在触发
     //{
-        
+
     //}
+
+    private void OnGUI()
+    {
+        if (GUI.Button(new Rect(Vector2.up * 480, new Vector2(100, 50)), "线框视图"))
+        {
+            MaterialSwitchtoWireframe();
+        }
+
+        if (GUI.Button(new Rect(Vector2.up * 540, new Vector2(100, 50)), "渲染视图"))
+        {
+            MaterialSwitchtoStandard();
+        }
+    }
+
+    #region 视图切换
+    private void MaterialSwitchtoWireframe()
+    {
+        Material material = new Material(Shader.Find("SuperSystems/Wireframe-Transparent"));
+        GetComponent<Renderer>().material = material;
+
+    }
+    private void MaterialSwitchtoStandard()
+    {
+        Material material = new Material(Shader.Find("Standard"));
+        //material.SetVector("_Color", new Vector4(1,1, 1,1));
+        Color c = new Color(173f / 255f,69f / 255f, 40f / 255f);
+        material.color = c;
+        GetComponent<Renderer>().material = material;
+        
+    }
+
+    #endregion
 }
