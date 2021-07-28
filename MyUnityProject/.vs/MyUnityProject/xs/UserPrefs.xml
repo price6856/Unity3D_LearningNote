@@ -1,12 +1,18 @@
 ﻿<Properties StartupConfiguration="{9AFACFC0-4175-C908-430E-3C9655AFF8D6}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Wireframe/Shaders/Wireframe.cginc">
     <Files>
       <File FileName="Assets/Scripts/Player.cs" Line="80" Column="1" />
+      <File FileName="Assets/Scripts/FollowTarget.cs" />
+      <File FileName="Assets/Scripts/CameraController.cs" />
+      <File FileName="Assets/Scripts/MyShader.cs" />
+      <File FileName="Assets/Wireframe/ImageEffect/WireframeImageEffect.cs" />
+      <File FileName="Assets/Wireframe/Shaders/Resources/Wireframe-Global.shader" Line="1" Column="1" />
+      <File FileName="Assets/Wireframe/Shaders/Wireframe.cginc" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f0d74b68-7ab9-4b22-98c7-8b462cadec12" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="17ba8b56-51cc-4380-b402-15aa9d1af9a4" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

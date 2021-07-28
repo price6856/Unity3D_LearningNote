@@ -261,6 +261,7 @@ GameObject:
   - component: {fileID: 120616410}
   - component: {fileID: 120616414}
   - component: {fileID: 120616415}
+  - component: {fileID: 120616416}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -376,6 +377,19 @@ MonoBehaviour:
   score: 0
   scoreText: {fileID: 876349836}
   winText: {fileID: 1994253764}
+--- !u!114 &120616416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120616409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5350140cd1a754ede97a82caab32b44e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LineColor: {r: 0.1342115, g: 0.34852543, b: 0.9811321, a: 0}
 --- !u!1001 &251708438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -456,6 +470,8 @@ GameObject:
   - component: {fileID: 525235714}
   - component: {fileID: 525235717}
   - component: {fileID: 525235718}
+  - component: {fileID: 525235719}
+  - component: {fileID: 525235720}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -535,7 +551,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 525235713}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1faebac29e20742fb8cbe248db28928f, type: 3}
   m_Name: 
@@ -553,6 +569,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4d66445ffdf146099ebe683583f1d0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &525235719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525235713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8547dbbe5f1574157be05d5461e78c1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 20
+  zoomSpeed: 10
+  maxDistance: 100
+  minDistance: 1
+  rotateSensitivity: 5
+  fovSensitivity: 0.05
+  focusSpeed: 3
+  focusDistance: 3
+--- !u!114 &525235720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525235713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff3b440a66b67aa4697009c0155eddc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wireframeType: 0
+  replacementTag: RenderType
+  cameraBackgroundMatchesBaseColor: 1
+  wireThickness: 600
+  wireSmoothness: 3
+  wireColor: {r: 0, g: 1, b: 0, a: 1}
+  baseColor: {r: 0, g: 0, b: 0, a: 1}
+  maxTriSize: 25
 --- !u!1 &876349834
 GameObject:
   m_ObjectHideFlags: 0
