@@ -70,6 +70,7 @@
     <Compile Include="Assets\Wireframe\Examples\Scripts\AutoRotate.cs" />
     <Compile Include="Assets\PiXYZ\Samples\Runtime_Import_Boiler_Plate\Scripts\OnlineUI.cs" />
     <Compile Include="Assets\Scripts\Math.cs" />
+    <Compile Include="Assets\Scripts\SimpleCarController.cs" />
     <Compile Include="Assets\Scripts\ShowFPS.cs" />
     <Compile Include="Assets\PiXYZ\Samples\Runtime_Import_Boiler_Plate\Scripts\CurrentLicenseScript.cs" />
     <Compile Include="Assets\Scripts\DrawStlMesh.cs" />
@@ -83,6 +84,8 @@
     <Compile Include="Assets\PiXYZ\Samples\Runtime_Import_Boiler_Plate\Scripts\CADLoader.cs" />
     <Compile Include="Assets\PiXYZ\Samples\Runtime_Import_Boiler_Plate\Scripts\OfflineUI.cs" />
     <Compile Include="Assets\PiXYZ\Samples\Runtime_Import_Boiler_Plate\Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\CarController.cs" />
+    <Compile Include="Assets\Scripts\CarCameraFollow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PiXYZ\Plugins\3DH3P\TD_Gs_4.3_14.dll" />

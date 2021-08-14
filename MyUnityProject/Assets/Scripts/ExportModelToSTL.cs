@@ -58,6 +58,7 @@ public class ExportModelToSTL : MonoBehaviour
         using (StreamWriter sw = new StreamWriter(Application.dataPath + "/" + go.name + ".stl"))
         {
             sw.Write(sb);
+            Debug.Log(Application.dataPath + "/" + go.name + ".stl");
             Debug.Log("导出完成");
         }
     }
