@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\PiXYZ\Scripts\CoroutineScheduler.cs" />
+    <Compile Include="Assets\Scripts\CarController.cs" />
     <Compile Include="Assets\PiXYZ\Scripts\PiXYZ4UnityLoader.cs" />
     <Compile Include="Assets\PiXYZ\Samples\Runtime_Import_Boiler_Plate\Scripts\ErrorWinScript.cs" />
     <Compile Include="Assets\Scripts\Food.cs" />
@@ -84,7 +85,6 @@
     <Compile Include="Assets\PiXYZ\Samples\Runtime_Import_Boiler_Plate\Scripts\CADLoader.cs" />
     <Compile Include="Assets\PiXYZ\Samples\Runtime_Import_Boiler_Plate\Scripts\OfflineUI.cs" />
     <Compile Include="Assets\PiXYZ\Samples\Runtime_Import_Boiler_Plate\Scripts\CameraMovement.cs" />
-    <Compile Include="Assets\Scripts\CarController.cs" />
     <Compile Include="Assets\Scripts\CarCameraFollow.cs" />
   </ItemGroup>
   <ItemGroup>

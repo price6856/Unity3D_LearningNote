@@ -214,10 +214,10 @@ Transform:
   m_GameObject: {fileID: 396908060}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &404235086
 GameObject:
@@ -296,13 +296,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 404235086}
-  m_LocalRotation: {x: -0, y: 0.012066632, z: -0, w: 0.9999272}
-  m_LocalPosition: {x: -2.08, y: 1.19, z: -2.97}
+  m_LocalRotation: {x: 0.028973756, y: -0.032567304, z: -0.0078079198, w: 0.999019}
+  m_LocalPosition: {x: -2, y: 1.5, z: -2.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 1.383, z: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 3.29, y: -3.763, z: -1.004}
 --- !u!114 &404235090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -536,7 +536,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5960523c078b525489787117e8e24b37, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5960523c078b525489787117e8e24b37, type: 3}
       propertyPath: m_LocalScale.x
@@ -594,9 +594,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: frontRight
       objectReference: {fileID: 0}
+    - target: {fileID: -1802586524838302232, guid: 5960523c078b525489787117e8e24b37, type: 3}
+      propertyPath: m_TagString
+      value: frontwheel
+      objectReference: {fileID: 0}
     - target: {fileID: -1201123610785334174, guid: 5960523c078b525489787117e8e24b37, type: 3}
       propertyPath: m_Name
       value: frontLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: -1201123610785334174, guid: 5960523c078b525489787117e8e24b37, type: 3}
+      propertyPath: m_TagString
+      value: frontwheel
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 5960523c078b525489787117e8e24b37, type: 3}
       propertyPath: m_Name
@@ -610,9 +618,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: rearLeft
       objectReference: {fileID: 0}
+    - target: {fileID: 4428809811523494188, guid: 5960523c078b525489787117e8e24b37, type: 3}
+      propertyPath: m_TagString
+      value: rearwheel
+      objectReference: {fileID: 0}
     - target: {fileID: 8225129233975067304, guid: 5960523c078b525489787117e8e24b37, type: 3}
       propertyPath: m_Name
       value: rearRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 8225129233975067304, guid: 5960523c078b525489787117e8e24b37, type: 3}
+      propertyPath: m_TagString
+      value: rearwheel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5960523c078b525489787117e8e24b37, type: 3}
@@ -784,6 +800,15 @@ MonoBehaviour:
     steering: 0
   maxMotorTorque: 400
   maxSteeringAngle: 30
+  frontleftw: {fileID: 0}
+  frontrightw: {fileID: 0}
+  rearleftw: {fileID: 0}
+  rearrightw: {fileID: 0}
+  car: {fileID: 0}
+  time: 0
+  time1: 0
+  lastpos: {x: 0, y: 0, z: 0}
+  carpos: {x: 0, y: 0, z: 0}
 --- !u!54 &1225369179
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1031,7 +1056,7 @@ Transform:
   - {fileID: 806560042}
   - {fileID: 952555991}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1789006728
 MonoBehaviour:
@@ -1147,5 +1172,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
