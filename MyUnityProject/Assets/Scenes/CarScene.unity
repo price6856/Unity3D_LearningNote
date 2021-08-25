@@ -805,6 +805,7 @@ MonoBehaviour:
   rearleftw: {fileID: 0}
   rearrightw: {fileID: 0}
   car: {fileID: 0}
+  carbody: {fileID: 0}
   time: 0
   time1: 0
   lastpos: {x: 0, y: 0, z: 0}
@@ -825,6 +826,14 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!33 &1225369180
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225369177}
+  m_Mesh: {fileID: 4300008, guid: 5960523c078b525489787117e8e24b37, type: 3}
 --- !u!1 &1299741742
 GameObject:
   m_ObjectHideFlags: 0
